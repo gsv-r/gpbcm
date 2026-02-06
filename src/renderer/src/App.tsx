@@ -1,9 +1,7 @@
-import Layout from "./components/layout";
+import { AppRouter } from "./routes";
 
 export default function App(): React.JSX.Element {
   return (
-    <Layout>
-      <p className="text-2xl font-bold text-neutral-800">hello, tailwind!</p>
-    </Layout>
+    <AppRouter />
   )
 }
